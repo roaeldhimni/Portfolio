@@ -1,0 +1,112 @@
+/* App.css */
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.header {
+  padding: 61px;
+  text-align: center;
+  background-image: url(./components/images/po.jpg);
+}
+
+.footer {
+  padding: 20px;
+  text-align: center;
+}
+
+ul {
+  color: #282c34;
+  width: 100%; /* Occupera toute la largeur */
+}
+
+.titlecol {
+  color: rgb(109, 0, 139);
+}
+
+h1 {
+  color: white;
+}
+
+h2 {
+  color: white;
+}
+
+.card-body {
+  background-image: url("./components/images/ff.png");
+}
+
+.card-text {
+  color: white;
+}
+
+.card-title {
+  color: white;
+}
+
+.p-card-body {
+  margin: 15px;
+}
+
+/* Styles supplémentaires pour le menu */
+
+.navbar {
+  width: 100%;
+  background-color: #f8f9fa; /* Couleur de fond du menu */
+}
+
+.navbar-nav {
+  width: 100%;
+  justify-content: space-around; /* Répartir les éléments de manière égale */
+}
+
+.nav-link {
+  color: #333; /* Couleur du texte des liens */
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  color: #000; /* Couleur du texte des liens au survol */
+}
+
+/* Supprimez la classe .container pour que le contenu occupe toute la largeur */
+
+.container {
+  width: 100%;
+}
